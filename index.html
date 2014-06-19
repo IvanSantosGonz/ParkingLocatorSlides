@@ -1,0 +1,579 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Sistema de localización de vehículos en interiores </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+        <link href="css/impress.css" rel="stylesheet" />
+        <link href="css/animate.css" rel="stylesheet" />
+         <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+         <link href='http://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'>
+
+  
+
+    <script src="Scripts/swfobject_modified.js" type="text/javascript"></script>
+    </head>
+   
+   
+    <body class="impress-not-supported" >
+    	<div class="fallback-message">
+    		<p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of 			this presentation.</p>
+    		<p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+		</div>
+
+    	<div id="impress">	<!-- Envoltura principal donde va a estar toda la presentacion -->
+        
+        
+        	<div class="step" id="init"   data-x="-3000" data-y="20000" data-scale="9" >
+       			
+                <h1 id="titulo">Sistema de localización de vehículos en interiores</h1>
+                <h1 id="tituloM">Máster en Técnicas para le Investigación, Desarrollo e Innovación en Ciencias e Ingeniería</h1>
+                <h2 id = "autor"> José Iván Santos González </h2>
+                <h2 id="directora"> Directora: Pino Caballero Gil </h2>
+                <img id = "ull_logo" src="img/ull.png"  width="200" height="200"  />
+                <img id = "PLtitle" src="img/logoPL.png"  width="150" height="200"  />
+
+    		</div>
+            
+            
+            <div class="step" id="Indice"   data-x="-7000" data-y="-5000" data-z="0"  data-rotate-x="30" data-rotate-y="45" data-rotate-z="30" data-scale="20" >
+                <h1> Índice </h1> 
+                <ul>
+                	<li> Introducción  </li>
+                    <li> Bluetooth </li>
+                    <li> Códigos QR </li>
+                    <li> Sistemas de Posicionamiento en Interiores </li>
+                    <li> Sistema Propuesto </li>
+                    <li> Conclusiones </li>
+                </ul>               
+    		</div>
+			
+			
+        
+        
+        
+        	<div class="step slide" id="bored"   data-x="-100" data-y="0" data-scale="5" data-rotate-x="360" >
+				<h1> Introducción </h1>
+                <ul>
+					<li> Telefonía móvil </li>
+                	<li> Tecnología Bluetooth </li>
+                    <li> Códigos QR</li>
+                    <li> Posicionamiento de vehículos </li>
+				</ul>
+                <img id = "intro_img" src="img/bluetooth_street_car.png"  width="700" height="305"  />
+                <div class="notes">
+                    <p>Hoy en día los teléfonos móviles o smartphones son mas indispensables en nuestro día a día, esto es debido ... </p>
+                    <p>Una tecnología... Bluetooth.  Un ámbito donde esta tecnología esta tb muy extendida es en los vehículos donde es usada para ... </p>
+                    <p>Otra tecnología que ha ganado un gran auge en los ultimos años debido en parte al despunte de la venta de smartphones es ... </p>
+                    <p>El objetivo de este proyecto es utilizar las dos tecnologías anteriormente comentadas para ofrecer una solución válida e innovadora para el posicionamiento de vehículos en aparcamientos interiores donde el uso del GPS queda descartado </p>
+                </div>
+    		</div>
+            
+            
+            <div class="step slide" id="bored2"   data-x="1650" data-z="-1725" data-y="0" data-rotate-x="360" data-scale="5" data-rotate-y="90">
+				<h1> Objetivos </h1>
+                <ul>
+					<li> Estudiar la tecnología Bluetooth y los códigos QR </li>
+                    <li> Estudiar soluciones anteriores </li>
+                	<li> Solución para el problema de aparcamientos en interiores </li>
+                    <li> Aplicación basada en Android </li>
+                    <li> Aplicación web </li>
+				</ul>
+                <img id ="android" src="img/android.png"  width="150" height="75"  />
+                <img id ="parking" src="img/parking.png"  width="350" height="250"  />
+                <div class="notes">
+                    <p>Los objetivos principales de este trabajo son en primer lugar estudiar la tecnología Bluetooth y su seguridad asi como estudiar los códigos QR</p>
+                    <p>Además de ofrecer una solución válida e innovadora para el problema del posicionamiento de vehículos en interiores previo estudio de las soluciones que tradicionalmente se han utilizado.</p>
+                    <p>para finalmente desarrollar las aplicaciones web y móvil que tratan de solucionar este problema.</p>
+                </div>
+    		</div>
+            
+            <div class="step slide" id="bored3"   data-x="-100" data-z="-3475" data-y="0" data-scale="5" data-rotate-y="180" data-rotate-x="360">
+       			<h1> Bluetooth </h1>
+				<ul>
+                    <li>IEEE 802.15.1</li>
+                    <li>Comunicación de corto y medio alcance</li>
+                    <li>Comunicación inalámbrica</li>
+				</ul>
+
+                <img id ="BT" src="img/BT.gif"  width="200" height="200"  />
+                <img id ="SIG" src="img/SIG.jpg"  width="250" height="200"  />
+                <div class="notes">
+                <p>Bluetooth, nombre comercial de la tecnología inalámbrica IEEE 802.15.1, es una tecnología inalámbrica para la comunicación de corto y medio alcance que surgió a partir de la investigación de una forma barata de
+                    comunicación inalámbrica entre los dispositivos móviles y sus accesorios.</p>
+
+                </div>
+    		</div>
+            
+            <div class="step slide" id="bored4"   data-x="-1825" data-z="-1725" data-y="0" data-scale="5" data-rotate-y="270" data-rotate-x="360">
+       			<h1>Versiones de Bluetooth </h1>
+					<ul>
+                        <li>Bluetooth 4.0</li>
+                        <li>Low Energy</li>
+                        <li>Tecnología de bajo consumo</li>
+                        <li>25 Mbps</li>
+                        <li>60 metros</li>
+					</ul>
+                    <img id ="BTLE" src="img/bluetoothLE.png"  width="400" height="200"  />
+                <div class="notes">
+                    <p>Hasta llegar a la versión actual, Bluetooth ha pasado por multitud de versiones, incoroporando en cada una de ellas diferentes mejoras y funcionalidades añadidas</p>
+                    <p>La versión actual de Bluetooth es la 4.0 lanzada en el año 2010 y conocida también con el sobrenombre de LE debido a que esta versión incorpora una nueva tecnología de bajo consumo</p>
+                    <p>La velocidad máxima de transferencia de datos a la que puede operar Bluetooth 4.0
+                        se mantiene como en la versión anterior y en condiciones idóneas puede alcanzar 25
+                        Mbps.</p>
+                    <p>Por otro lado, la distancia máxima a la que, en teoría, podrían interactuar dos
+                        dispositivos basados en la versi´on 4.0 de Bluetooth se extiende hasta los 60 metros,
+                        lo que hace que estas comunicaciones puedan extrapolarse a nuevos tipos de uso en
+                        un futuro próximo.</p>
+                </div>
+    		</div>
+
+
+
+       		<div class="step slide" id="bored5"   data-x="-100" data-z="-1750" data-y="-1750" data-scale="5" data-rotate-x="450" data-rotate-y="360" data-rotate-z="90">
+       			<h1>Comparación con otras tecnologías</h1>
+				<h2> Wi-Fi Direct <h2>
+                <table>
+				    <tbody><tr><th>Tecnología</th><th>Wi-Fi Direct</th><th>Bluetooth 4.0 </th></tr>
+					<tr><td class="tecno">Ancho de banda</td><td>250 Mbps</td><td>25 Mbps</td></tr>
+					<tr class="even"><td class="tecno">Radio de alcance</td><td>100 metros</td><td>60 metros</td></tr>
+					<tr><td class="tecno">Retrocompatibilidad</td><td>Sí</td><td>No</td></tr>
+					<tr class="even"><td class="tecno">Frecuencia</td><td>2.4 GHz</td><td>2.4 GHz</td></tr>
+					<tr><td class="tecno">Consumo de energía</td><td>25% menor que Wi-Fi
+tradicional</td><td>Nuevo modo de bajo consumo de energía</td></tr>
+					<tr class="even"><td class="tecno">Seguridad</td><td>WPA2</td><td>AES 128 bits con CCM</td></tr>
+				</tbody></table>
+
+                <div class="notes">
+
+                    <p>La principal tecnología con la que podemos comparar Bluetooth es wi-Fi Direct</p>
+                    <p>Wi-Fi Direct es una nueva tecnología inalámbrica desarrollada por la Wi-Fi Alliance cuyo cometido es realizar comunicaciones Peer to Peer entre dispositivos a través de la tecnología Wi-Fi sin hacer uso de un Access Point</p>
+                    <p>wi-Fi Direct es superior a Bluetooth en la mayoría de sus características pero una caracterisitica muy importante en los dispositivos móviles es el consumo de energía y en este apartado Bluetooth 4.0 es superior a Wi-Fi Direct, hecho por el cual se hace recomendable su uso en dispositivos con capacidades energeticas limitadas</p>
+
+                </div>
+			</div>
+            
+            <div class="step slide" id="bored6"   data-x="-100" data-z="-1750" data-y="1750" data-scale="5" data-rotate-x="450" data-rotate-y="540" data-rotate-z="270">
+             	<h1>Seguridad en Bluetooth 4.0</h1>
+       				<ul>
+                        <li> AES (Advanced Encryption Standard) con CCM</li>
+                        <li> LTK (Long-Term Key) en lugar de LK (Link Key)</li>
+                        <li> IRK (Identity Resolving Key)</li>
+                        <li> CSRK (Connection Signature Resolving Key)</li>
+       				</ul>
+                	<img id ="btsec" src="img/btsec.jpg"  width="400" height="250"  />
+
+                <div class="notes">
+                    <p>En Bluetooth 4.0 la seguridad se consigue mediante el cifrado AES (Advanced Encryption Standard) de 128 bits con CCM</p>
+                    <p>Este algoritmo tambiém llamado Rijndael en honor a sus creadores, los belgas  Joan Daemen y Vincent Rijmen, es un algoritmo de cifrado por bloques adoptado como un estándar de cifrado por el gobierno de los Estados Unidos en el año 2002. </p>
+                    <p>En términos de seguridad, Bluetooth 4.0 funciona de manera diferente a las anteriores versiones.</p>
+                    <p>En este sentido, una de las diferencias radica en que Bluetooth 4.0 utiliza una clave a largo plazp, LTK (Long-Term Key), en lugar de la clave de enlace o LK (Link Key) que
+                        se usa en las anteriores versiones.El uso de esta clave consiste en que
+                        un dispositivo genera una LTK y la envía al otro dispositivo de manera segura durante el
+                        emparejamiento en lugar de tener que generar los dos dispositivos la misma clave</p>
+                    <p>Además Bluetooth 4.0 incorpora otras novedades como la capacidad de firmar los datos
+                        y el uso de direcciones de dispositivos privadas, aspectos que son posibles gracias a la
+                        creación de las nuevas claves IRK (Identity Resolving Key) y CSRK (Connection Signature
+                        Resolving Key) ambas de 128 bits.</p>
+                </div>
+    		</div>
+            
+            
+             <div class="step slide" id="bored7"   data-x="-350" data-z="-1750" data-y="00" data-scale="1" data-rotate-x="450" data-rotate-y="540" data-rotate-z="270">
+             	<h1>Modos y niveles de seguridad de Bluetooth 4.0</h1>
+                 <ul>
+                     <li id="seg1"> Modo de seguridad 1 </li>
+                     <ul>
+                         <li id="seg3"> Cifrado de los datos</li>
+                     </ul>
+                     <li id="seg2"> Modo de seguridad 2 </li>
+                     <ul>
+                         <li id="seg4"> Firma de los datos</li>
+                     </ul>
+
+                 </ul>
+                 <img id ="hacker" src="img/Encryption.jpg"  width="400" height="250"  />
+                <div class="notes">
+                    <p>Al igual que en versiones anteriores, en Bluetooth 40 también existen los modos y niveles de seguridad</p>
+                    <p>En este sentido Bluetooth 4.0 tiene 2 modos de seguridad, el primero de ellos relacionado con en el cifrado de los datos y el segundo con la firma de los mismos</p>
+                    <p>En el modo de seguridad 1 existen tre niveles, el primero no ofrece ningún tipo de mecanismo de seguridad y solo existe para garantizar la retrocompatibilidad con versiones anteriores</p>
+                    <p>El segundo nivel permite el uso de BT sin autenticación pero cifrando las comunicaciones, mientras que el tercero posee autenticación y cifrado de las comunicaciones</p>
+                    <p>En el modo de seguridad 2, existen dos niveles de seguridad, permitiendo el primero de ellos el uso de BT sin autenticación pero firmando los datos y el segundo permitiendo la autenticación y la firma de los datos.</p>
+                </div>
+    		</div>
+            
+            
+            <div class="step slide" id="bored8"   data-x="-350" data-z="-1750" data-y="00" data-scale="1" data-rotate-x="540" data-rotate-y="540" data-rotate-z="270">
+             	<h1>Ataques a Bluetooth</h1>
+       			 <ul>
+					 <li> Ataques por denegación de servicio </li>
+                     <li> Ataques basados en confusión </li>
+                     <li> Escucha durante el emparejamiento</li>
+                     <li> Ataques al Emparejamiento Simple Seguro </li>
+				</ul>	
+                 <img id ="attack" src="img/ataque.jpg"  width="400" height="250"  />
+                <div class="notes">
+                    <p>En esta sección voy a hablar sobre los ataques comunes a todas las versiones de Bluetooth o que aparecen en la ultima versión del mismo </p>
+                    <p>Ataques de denegacion de servicio. Este tipo de ataque consiste en conseguir que un dispositivo deje de prestar sus servicios
+                        con normalidad tratando de inundar con peticiones de conexión. </p>
+                    <p>Ataques basados en confusión. Este tipo de ataques consisten en el envío de paquetes de datos malformados o que
+                        no siguen el estándar a un usuario de Bluetooth para ver cómo este usuario reacciona
+                        con el fin de ralentizar o parar el funcionamiento correcto del dipositivo. El objetivo
+                        último de este tipo de ataques podría ser la denegación de servicio.</p>
+                    <p>Escucha durante el emparejamiento.En todos los métodos para el emparejamiento de dispositivos de las diferentes versiones
+                        de Bluetooth aparece la posibilidad de realizar este ataque, cuyo fin es obtener
+                        y descifrar las comunicaciones entre dos dispositivos.  </p>
+                    <p>Este tipo de ataques consisten en diversas t´ecnicas para obligar a un dispositivo a
+                        utilizar el denominado modo ”Just Works”que incorpora el Emparejamiento Simple
+                        Seguro o SSP, y que sirve para hacer posible el uso de Bluetooth en dispositivos que
+                        no posean pantalla y/o teclado, de manera que no se requiera interacci´on alguna con
+                        el dispositivo.
+                        El uso del modo ”Just Works”hace que Bluetooth sea vulnerable a un ataque MITM
+                        (Man In The Middle).</p>
+                </div>
+    		</div>
+            
+            
+            
+            <div class="step slide blue" id="bored11"   data-x="1650" data-y="5000" data-z="3250" data-scale="5" data-rotate-x="360" >
+				<h1>Códigos QR</h1>
+                <ul>
+                    <li> Denso Wave, filial de Toyota </li>
+                    <li> Quick Response </li>
+                    <li> Representación binaria</li>
+                </ul>
+                <img id ="denso" src="img/denso.jpg"  width="250" height="200"  />
+                <img id ="qr" src="img/qrcode.jpg"  width="250" height="400"  />
+                <div class="notes">
+                    <p>Los comunmente denominados códigos Qr fueron creados en Japón en el año 1994 por la compañia Denso Wave, filial de Toyota, proviniendo su nombre del término anglosajon Quick Response debido a que lo que intentaban con seguir con estos códigos era una lectura rápida</p>
+                    <p>Inicialmente usados para registrar repuestos de vehículos sus creadores jamás podrían imaginar los usos casi impensables a los que se ha extendido esta tecnologia</p>
+                    <p>El funcionamiento de los códigos QR consiste básicamente en el uso de la representación binaria definida por los colores blanco y negro.</p>
+                </div>
+    		</div>
+            
+            
+            <div class="step slide blue" id="bored13"   data-x="1650" data-z="3250" data-y="5000" data-rotate-x="360" data-scale="5" data-rotate-y="90">
+				<h1>Características de los códigos QR</h1>
+                <ul>
+                    <li> 3 cuadrados de mayor tamaño</li>
+                    <li> Cuadrado adicional algo mas pequeño</li>
+                    <li> Número de formato y de versión </li>
+                    <li> Diferentes modos de almacenamiento</li>
+                    <li> Corrección frente a errores</li>
+                </ul>
+                <img id ="qrstruc" src="img/qr-estructura.png"  width="300" height="200"  />
+                <div class="notes">
+                    <p>Entre las características de los códigos QR destacan las siguientes:</p>
+                    <p>Poseen 3 cuadrados de mayor tamaño y a partir de la versión 2 un cuarto algo mas pequeño que sirven para orientar de manera
+                        precisa y rápida el código QR </p>
+                    <p>el número de versión y formato del código QR se encuentra en el propio código lo que facilita su lectura</p>
+                    <p>Los códigos QR poseen diferentes modos de almacenamiento entre los que encontramos
+                        modo numérico, modo alfanumérico, modo Byte y otros muchos que permiten almacenar la información de manera distinta dependiendo del tipo de información a almacenar.</p>
+                    <p>Otra característica importante de los códigos Qr es que incorporan corrección frente a errores con 4 niveles, de manera que si un códido QR no es legible o está deteriorado en un porcentaje menor al nivel de corrección de erroes utilizado este podrá seguir leyéndose sin problema</p>
+                    <p>Los niveles de corrección de errores que los códigos QR incorporan son del 7,15,25 y 30%</p>
+                </div>
+
+    		</div>
+                
+
+            
+            <div class="step slide orange" id="bored21"   data-x="-100" data-y="10000" data-z="10000" data-scale="5" data-rotate-x="360" >
+				<h1> Sistemas de posicionamiento en interiores </h1>
+                <ul>
+					<li> Puntos de acceso Wi-Fi </li>
+                	<li> Potencia de la señal </li>
+                    <li> Ángulo de incidencia de la señal </li>
+                    <li> Tiempo de propagación de la señal </li>
+                    <li> Combinación Wi-Fi y RFID </li>
+                    <li> Bluetooth </li>
+                    <img id ="pos" src="img/posicionamiento.jpg"  width="500" height="200"  />
+				</ul>
+                <div class="notes">
+                    <p>Tradicionalmente se han utilizado diferentes sistemas para el posicionamiento en interiores.</p>
+                    <p>Algunos de ellos han estado basados en la tecnología Wi-Fi haciendo uso de las características físicas de diferentes puntos de accesos colocados en diferentes lugares como es la potencia de la señal, su ángulo de incidencia su tiempo de progpacion, etc</p>
+                    <p>El principal problema de este tipo de sistemas es que las características medidas no son objetivas, ya que las mismas dependen de la potencia de recepción del dispositivo con el que se mida</p>
+                    <p>Otro problema de estos sistemas es que previo uso de la aplicación hay que hacer diferentes mediciones de estos parámetros para almacenarlos junto a su posición y que luego el problema sea simplemnte de clasificación</p>
+                    <p>Otros sistemas utilizadas han consistido en combinar Wi-Fi con RFID o utilizar Bluetooth de la misma manera que utilizabamos Wi-Fi en el anterior ejemplo. En todos estos casos, los problemas son casi identicos a los comentados anteriormente.</p>
+                </div>
+    		</div>
+            
+            
+            <div class="step slide orange" id="bored22"   data-x="1650" data-z="8250" data-y="10000" data-rotate-x="360" data-scale="5" data-rotate-y="90">
+				<h1> Sistema propuesto </h1>
+                <ul>
+					<li> Aplicación web </li>
+                	<li> Aplicación móvil </li>
+                    <li> Códigos QR  </li>
+                    <li> Bluetooth </li>
+				</ul>
+                <img id = "PLM" src="img/logoPL.png"  width="150" height="200"  />
+                <img id = "PLW" src="img/PLweb.png"  width="500" height="275"  />
+
+                <div class="notes">
+                    <p>La solución que prponemos consiste en la utilización de la tecnología Bluetooth y los códigos QR para crear una aplicación web y una aplicación móvil que aporten una solución válida e innovadora al posicionamiento de vehículos en interiores</p>
+                </div>
+    		</div>
+            
+            <div class="step slide orange" id="bored23"   data-x="-100" data-z="6525" data-y="10000" data-scale="5" data-rotate-y="180" data-rotate-x="360">
+       			<h1> Funcionamiento del sistema </h1>
+
+                <ul>
+                    <li> Selección de Bluetooth del vehículo </li>
+                    <li> Escaneo de código QR </li>
+                    <li> Ocupación de plaza de aparcamiento </li>
+                    <li> Consulta de posición </li>
+                    <li> Liberación de plaza de aparcamiento  </li>
+                </ul>
+                <img id = "sistema" src="img/sistema.jpg"  width="400" height="250"  />
+
+                <div class="notes">
+                    <p>El funcionamiento del sistema consiste básicamente en 4 acciones:</p>
+                    <p>En primer lugar, la primera vez que utilicemos la aplicación deberemos seleccionar cual es el Bluetooth de nuestro vehículo</p>
+                    <p>Luego una vez que hemos aparcado nuestro vehículo debemos abrir la aplicación y escanear el código QR correspondiente a nuestra plaza de aparcamiento</p>
+                    <p>Posteriormente, una vez que queremos volver a nuestro vehículo y no recordamos donde está aparcado podemos consultar su posición simplemente abriendo la aplicación en el móvil o escando cualquier código qr que nos encontremos para ver nuestra posición en relación a la de nuestro vehículo </p>
+                    <p>Finalmente, una vez que abandonamos el parking, haciendo uso de la tecnología bluetooth, nuestra plaza de aparcamiento volverá a aparecer como libre.</p>
+                </div>
+
+    		</div>
+            
+
+            
+			
+			<div id="app1" class="step app" data-x="35000" data-z="18250" data-y="15000" data-scale="5" data-rotate-x="540" data-rotate-z="270" data-rotate-y="270">
+				<h1> Aplicación web Parking Locator </h1>
+				<img id ="wdl" src="img/PLweb.png"  width="800" height="500"  />
+
+    		</div>
+			
+			
+			<div id="app2" class="step app" data-x="50000" data-z="16800" data-y="14000" data-scale="1" data-rotate-x="540" data-rotate-z="270" data-rotate-y="270">
+				<h1> Aplicación web Parking Locator </h1>
+				<h2 class="h2c"> ¿Cuáles son los objetivos de la plataforma web?  </h2>
+				<ul class="ulcenter">
+                    <li class="substep"> Centralización de los datos de los aparcamientos </li>
+                    <li class="substep"> Permitir la puesta en marcha del sistema en diferentes aparcamientos </li>
+                    <li class="substep"> Ofrecer funcionalidades que aporten valor añadido</li>
+				</ul>
+                <div class="notes">
+                   <p>Los objetivos principales de la aplicación web Parking Locator son: en primer lugar centralizar los datos de los aparcamientos, como lo son su ocupación y su posición</p>
+                    <p>Permitir el registro y puesta en marcha del sistema en los diferentes aparcamientos</p>
+                    <p>Ofrecer funcionalidades que aporten valor añadido como es la visualización en el plano de los puestos libres y ocupados para así ganar clientes potenciales</p>
+                </div>
+
+            </div>
+			
+			
+			
+			<div id="app3" class="step app" data-x="50000" data-z="16800" data-y="16000" data-scale="1" data-rotate-x="540" data-rotate-z="270" data-rotate-y="270">
+				<h1> Aplicación web Parking Locator </h1>
+				<h2 class="h2l"> Funcionalidades de la aplicación </h2>
+                <ul class="ulleft">
+                    <li class="substep"> Registro/inicio de sesión </li>
+                    <li class="substep"> Subida de planos de aparcamientos </li>
+                    <li class="substep"> Visualización de planos de aparcamiento </li>
+                    <li class="substep"> Creación de códigos QR para aparcamientos </li>
+                    <li class="substep"> Visualización de plazas libres y ocupadas </li>
+                </ul>
+                <div class="notes">
+                    <p>Las principales funcionalidades de la aplicación web son las siguientes:</p>
+                    <p>Registro e inicio de sesión, en este sentido cabe destacar que la aplicación permite el registro de usuarios, pero los usuarios no podrán hacer uso de la aplicación hasta que el administrador acepte su registro</p>
+                    <p>Además cabe destacar que por motivos de seguridad las contraseñas son almacenadas en el servidor tras aplicarle la función hash sha-3, de este modo aunque un usuario malintencionada pudiera acceder a las mismas no podría descifrarlas</p>
+                    <p>Otras funcionalidades son la subida y visualización de planos ya que es el primer paso para poner en funcionamiento el sistema</p>
+                    <p>Finalmente se puede también generar automáticamente el código QR de una plaza de aparcamiento y visualizar las plazas libres y ocupadas de un aparcamiento </p>
+                </div>
+
+                <img id ="PLweb1" src="img/PLweb1.png"  width="500" height="350"  />
+            </div>
+			
+			<div id="app4" class="step app" data-x="50000" data-z="16800" data-y="18000" data-scale="1" data-rotate-x="540" data-rotate-z="270" data-rotate-y="270">
+				<h1> Aplicación web Parking Locator </h1>
+                <h2 class="h2l"> Herramientas utilizadas </h2>
+                <ul class="ulleft2">
+                    <li> Node.js </li>
+                    <li> Express.js</li>
+                    <li> Angular.js </li>
+                    <li> Mongodb </li>
+                    <li> Bootstrap</li>
+                </ul>
+
+                <img id ="herr1" src="img/node.png"  width="150" height="100"  />
+                <img id ="herr2" src="img/expressjs.png"  width="150" height="150"  />
+                <img id ="herr3" src="img/angularjs.png"  width="150" height="100"  />
+                <img id ="herr4" src="img/mongodb.png"  width="150" height="100"  />
+                <img id ="herr5" src="img/bootstrap.jpg"  width="150" height="150"  />
+                <div class="notes">
+                    <p>La aplicación web Parking Locator ha sido realizada utilizando el lenguaje javascript tanto en el lado del cliente como en lado del servidor haciendo uso de los frameworks node.js, express.js, angular.js, mongoDB para la base de datos y Bootstrap en el diseño</p>
+                </div>
+
+            </div>
+			
+			
+			
+			<div id="app5" class="step app" data-x="50000" data-z="16800" data-y="20000" data-scale="1" data-rotate-x="540" data-rotate-z="270" data-rotate-y="270">
+				<h1> Aplicación web Parking Locator </h1>
+				<h2 class="h2c"> Disponible en www.parkinglocator.ama-think.com </h2>
+                <img id ="PLW2" src="img/PLweb2.png"  width="700" height="400"  />
+                <div class="notes">
+                    <p>La aplicación web Parking Locator ha sido puesta en producción en un servidor gratuito proporcionado por amazon y se encuentra disponible en la dirección ParkingLocator.ama-think.com </p>
+                </div>
+            </div>
+
+
+
+
+        <div id="app6" class="step app" data-x="50000" data-z="16800" data-y="22000" data-scale="1" data-rotate-x="540" data-rotate-z="270" data-rotate-y="270">
+            <h1> Aplicación móvil Parking Locator </h1>
+            <img id ="PLM3" src="img/PLM.png"  width="1000" height="400"  />
+            <div class="notes">
+                <p>A continuación vamos a hablar de la applicacion movil Parking Locator, la cual ha sido desarrollada en Android debido a que es sistema operativo móvil predominante hoy en día y con el cual podemos llegar a una mayor cantidad de potenciales usuarios</p>
+            </div>
+        </div>
+
+
+
+        <div id="app8" class="step app" data-x="50000" data-z="16800" data-y="26000" data-scale="1" data-rotate-x="540" data-rotate-z="270" data-rotate-y="270">
+            <h1> Aplicación móvil Parking Locator </h1>
+            <h2 class="h2l"> Funcionalidades de la aplicación </h2>
+            <ul class="ulleft3">
+                <li class="substep"> Localización de nuestro vehículo </li>
+                <li class="substep"> Visualización de nuestra posición en relación a la del vehículo </li>
+                <li class="substep"> Marcar como ocupadas o libres las plazas de aparcamiento </li>
+            </ul>
+
+            <img id ="PLM2" src="img/PLM2.png"  width="300" height="500"  />
+            <div class="notes">
+                <p>Las funcionalidades que ofrece la aplicación móvil Parking Locator son las siguientes:</p>
+                <p>La primera funcionalidad y razón de ser de la aplicación es la localización de vehículos</p>
+                <p>La segunda funcionalidad es la visualización de nuestra posición en relación a la posición del vehículo</p>
+                <p>La tercera y ultima funcionalidad importante es marcar como libres u ocupadas las plazas de aparcamiento</p>
+            </div>
+
+        </div>
+
+
+
+        <div id="app7" class="step app" data-x="50000" data-z="16800" data-y="24000" data-scale="1" data-rotate-x="540" data-rotate-z="270" data-rotate-y="270">
+            <h1> Aplicación móvil Parking Locator </h1>
+            <h2 class="h2l2"> Plataforma y herramientas de desarrollo </h2>
+            <ul class="ulleft">
+                <li> Eclipse </li>
+                <li> Android SDK </li>
+                <li> GIT </li>
+                <li> Depuración en dispositivo físico </li>
+            </ul>
+            <h2 class="h2r"> Metodología de desarrollo </h2>
+            <ul class="ulright">
+                <li> Modelo incremental de desarrollo de software </li>
+            </ul>
+            <img id ="incremental" src="img/incremental.png"  width="250" height="350"  />
+            <div class="notes">
+                <p>La plataforma de desarrollo de la aplicación es, como hemos comentado antes, Android y para ello hemos utilizado el entorno de desarrollo eclipse con el sdk de Android, git y un dispositivo físico para la depuración</p>
+                <p>Además hemos seguido un modelo incremental de desarrollo del software de manera que en cada iteración teníamos una versión funcional de la aplicación a la que se iban añadiendo funcionalidades</p>
+            </div>
+
+        </div>
+
+
+
+        <div id="app9" class="step app" data-x="50000" data-z="18800" data-y="24000" data-scale="1" data-rotate-x="540" data-rotate-z="270" data-rotate-y="270">
+            <h1> Aplicación Parking Locator </h1>
+            <h2 class="h2c2"> Publicación en Google Play </h2>
+            <img id ="Google" src="img/googleplay.png"  width="600" height="400"  />
+            <div class="notes">
+                <p>Finalmente y tras pasar el proceso de evaluación por parte de Google nuestra aplicaci´on Parking Locator se encuentra disponible en Google Play </p>
+            </div>
+        </div>
+
+        <div id="app10" class="step app" data-x="50000" data-z="18800" data-y="26000" data-scale="1" data-rotate-x="540" data-rotate-z="270" data-rotate-y="270">
+            <h1> Aplicación Parking Locator </h1>
+            <h2 class="h2c2"> Demostración de uso </h2>
+            <iframe class="video1" width="600" height="400" src="http://www.youtube.com/embed/xQMeNj_Llvg" frameborder="0" allowfullscreen></iframe>
+            <div class="notes">
+                <p>Finalmente y tras pasar el proceso de evaluación por parte de Google nuestra aplicaci´on Parking Locator se encuentra disponible en Google Play </p>
+            </div>
+        </div>
+
+
+
+			<div id="conclusion" class="step app" data-x="10000" data-z="18800" data-y="14000" data-scale="1" data-rotate-x="540" data-rotate-z="270" data-rotate-y="0">
+				<h1> Conclusions and Future Work </h1>
+                <ul id="finl">
+					<li> Help drivers </li>
+					<li> Indoor parkings</li>
+					<li> Monitorization </li>
+                    <li> Bluetooth and QR codes</li>
+					<li> Parking Locator app </li>
+				</ul>
+                <ul id="finr">
+               		<li> Increase the security level </li>
+                    <li> Offer of new value-added features </li>
+					<li> Improve the system with user's opinion </li>
+
+                </ul>
+                <div class="notes">
+                    <p>During this work the main objective was the development of an application to help those drivers that use indoor parkings through the automatic monitorization of data about
+                        busy parking places and an orientation service to the driver with respect to his vehicle.
+                        The developed solution consists on a web application and a mobile application that uses
+                        Bluetooth and QR codes in a secure way.</p>
+                    <p>The future work about this systems consist on:</p>
+                    <p>Increase the security level of the developed application through its verification by
+                        applying the different attacks we studied in this work, its test with real users, and
+                        the implementation of the most adequate security solutions.</p>
+                    <p>Offer new value-added features to parking’s managers to try to attract more
+                        interest towards the use of the proposed system.</p>
+                    <p>Improve the system adding new features according to the user's opinion.</p>
+
+                </div>
+
+            </div>
+			
+            
+            
+                    
+
+                
+           
+       
+             <div id="fin" class="step" data-x="-8700" data-y="-450" data-rotate="470" data-scale="1">
+        		<p class="animated hinge" id="gracias" ><b class="positioning">Gracias por su atención</b></p>
+                <p id="preguntas" ><b class="positioning">Preguntas</b></p>
+   			 </div>
+             
+             
+             <div  class="step" data-x="-9000" data-y="-100" data-z="-300" data-rotate="470" data-scale="1">
+        		<p><b class="rotating">José Iván Santos González</b><br/></p>
+                <p id="algoritmos">Sistema de localización de vehículos en interiores</p>
+   			 </div>
+
+          
+                
+        
+                
+                
+                
+                
+    </div>
+            <script>
+	$(window).scroll(function() {
+		$('#animatedElement').each(function(){
+		var imagePos = $(this).offset().top;
+
+		var topOfWindow = $(window).scrollTop();
+			if (imagePos < topOfWindow+400) {
+				$(this).addClass("slideUp");
+			}
+		});
+	});
+</script>
+
+        <script type="text/javascript" src="js/impress.js"></script>
+        <script src="js/impress-progress.js"></script>
+        <script src="js/impressConsole.js"></script>
+        <script>
+            impress().init();
+            impressConsole().init();
+            impressConsole().open(); // If you want them to open automatically
+        </script>
+    </body>
+</html>
+
